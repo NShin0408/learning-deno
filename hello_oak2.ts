@@ -16,7 +16,7 @@ app.use(async (ctx, next) => {
 });
 
 app.use((ctx) => {
-   ctx.response.body = "hello world";
+   ctx.response.body = "hello world!";
 });
 
 await app.listen({ port: 8080});
